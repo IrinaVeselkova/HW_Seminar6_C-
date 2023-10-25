@@ -8,7 +8,7 @@ int[]  ReadMassive(string msg)// объявляем функцию msg стро�
 {
     Console.WriteLine(msg);//пишет на экран параметр msg
     
-    int[] massivNumbers = Console.ReadLine().Split(',').Select(int.Parse).ToArray();
+    int[] massivNumbers = Console.ReadLine().Split(',').Select(int.Parse).ToArray();//преобразует массив из прлученной строки
     
     return massivNumbers;// возврат из функции
 }
